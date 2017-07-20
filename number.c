@@ -6,11 +6,12 @@ int main(void) {
 	scanf("%d",&num);
 	if(num>0)
 	{
-	    printf("positive number");
+            num=num%100;
+	    printf(num);
 	}
 	else if(num<0)
 	{ 
-	  printf("negative number");
+	  printf("0");
 	}
 	else
 	{
